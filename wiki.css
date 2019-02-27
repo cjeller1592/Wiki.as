@@ -10,7 +10,6 @@ article {
     width: 400px;
     height: 500px;
     margin: 20px;
-/*    padding-top: 20px; */
     transition: 0.3s;
     overflow: scroll;
     box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.2);
@@ -19,26 +18,7 @@ article {
 collection > article {
     margin: 50px;
 }
-     
-#post + #post {
-    margin: 1000px;
-}
-
-/*section:after {
-  content: "";
-  display: inline-block;
-  clear: both;
-  min-width: 1200px;
-  margin: 0 auto;
-}*/
-
-
-p {
-	orphans:3;
-	widows:2;
-}
-
-
+   
 
 a:link, a:visited {
 	background: transparent;
@@ -46,17 +26,6 @@ a:link, a:visited {
 	text-decoration: none;
 }
 
-/*select {
-    display:none;
-}*/
-
-
-.footer {
-	font-size: 10pt;
-	padding-top: 24pt;
-	float: inherit;
-	string-set: Footer self;
-}
 
 footer {
     display: none;
